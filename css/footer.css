@@ -4,10 +4,28 @@
     background-color: var(--escuro);
 }
 
-/* ================ Responsividade 400px =============*/
+/* ================ Responsividade 450px =============*/
 
-@media (max-width: 400px){
+@media (max-width: 450px){
     .footer{
         width: 100%;
     }
+}
+
+/* ================Responsividade 1024px ============ */
+
+@media (max-width: 1024px){
+    .footer {
+        width: 100%;
+    }
+    
+}
+
+/* ================Responsividade 1440px ============ */
+
+@media (max-width: 1440px){
+    .footer {
+        width: 100%;
+    }
+    
 }
