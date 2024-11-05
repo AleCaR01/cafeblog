@@ -30,6 +30,24 @@ main{
     padding: 1.5rem;
 }
 
+/* ================ Responsividade 400px =============*/
+
+@media (max-width: 400px){
+    main{
+        width: 100%;
+    }
+
+    .conteudo{
+        margin: 2rem 2rem;
+    }
+
+    .conteudo img {
+        height: 50%;
+        width: 80%;
+    }
+
+}
+
 /* ================ Responsividade 450px =============*/
 
 @media (max-width: 450px){

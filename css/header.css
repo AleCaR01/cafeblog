@@ -35,6 +35,28 @@ nav > a{
     font-size: 1.6rem;
 }
 
+/* =================Responsividade 400px ============ */
+
+@media (max-width: 400px) {
+    
+    header {
+        width: 100%;
+    }   
+
+    .title{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-left: 0;
+
+    }
+
+    nav > a {
+        font-size: 1.4rem;
+    }
+}
+
 /* =================Responsividade 450px ============ */
 
 @media (max-width: 450px) {
@@ -77,7 +99,7 @@ nav > a{
 
 /* ================Responsividade 1440px ============ */
 
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
     header {
         width: 100%;
     }
@@ -91,6 +113,6 @@ nav > a{
     }
 
     nav > a {
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 }
